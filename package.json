@@ -1,0 +1,35 @@
+{
+    "name": "num-to-words-nl",
+    "version": "1.1.0",
+    "description": "number-to-words conversion for the Dutch language",
+    "main": "./src/numtowords",
+    "jest": {
+        "testRegex": "((\\.|/*.)(spec|test))\\.js?$"
+    },
+    "scripts": {
+        "test": "npx jest"
+    },
+    "bin": {
+        "nl-numtowords-cli": "./bin/cli.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Raadsl/numtoword-nl.git"
+    },
+    "keywords": [
+        "number-to-words",
+        "number",
+        "Dutch",
+        "Nederlands",
+        "nummer naar woorden",
+        "uitgeschreven getal",
+        "javascript",
+        "Raadsel"
+    ],
+    "author": "Raadsel",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Raadsl/numtoword-nl/issues"
+    },
+    "homepage": "https://github.com/Raadsl/numtoword-nl#readme"
+}
